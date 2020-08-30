@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&display=swap');
+
+.header{
+    min-height: 5vw;
+    hr{
+        border: 1px solid #A64B00;
+    }  
+}
+
+.headerWrap{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;;
+}
+
+.logo{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 700;
+    color: #223046;
+    font-size: 25px;
+}
+
+img {
+    width: 200px;
+}
