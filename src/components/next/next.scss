@@ -1,0 +1,18 @@
+.btnNext{
+    background-color: #ff702c;
+    border: 1px solid #A64B00;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 700;
+    color: #223046;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+button:disabled {
+    background-color: #FFB273;
+    border: 1px solid #A64B00;
+    cursor: default;
+}

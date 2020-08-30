@@ -1,0 +1,61 @@
+.discription {
+    padding: 5px 0px 0px 30px;
+    img{
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        padding-right: 30px;
+    }
+    p{
+        font-family: 'Arsenal', sans-serif;
+        font-weight: 700;
+    }
+}
+
+.conteiner {
+    display: flex;
+    
+    p{
+        font-size: 25px;
+        margin: 0;
+        padding-bottom: 25px;
+    }
+    .species{
+        font-size: 1vw;
+    }
+}
+
+.defaultInfo {
+    margin-left: 30px;
+}
+
+.dop_discription {
+    width: 100%;
+}
+
+.discription_bird {
+    width: 100%;
+}
+
+@media (max-width:800px) {
+    .conteiner {
+        flex-wrap: wrap;       
+    }
+}
+
+@media (max-width:600px) {
+    .discription  {
+        padding: 0px;
+        
+    }
+
+    .discription img {
+        margin: auto;
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+
+    .conteiner p {
+        padding-top: 25px;
+    }
+}

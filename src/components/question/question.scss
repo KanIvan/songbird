@@ -1,0 +1,35 @@
+.question{
+    display: flex;
+    flex-direction: row;
+
+    img{
+        width: 290px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    span{
+        font-family: 'Arsenal', sans-serif;
+        font-size: 25px;
+    }
+    
+    .qstConteiner{
+        width: 100%;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .question {
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    .question .qstConteiner {
+        margin-left: 0;
+    }
+
+    .question img {
+        margin: auto;
+    }
+}

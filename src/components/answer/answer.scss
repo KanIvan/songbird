@@ -1,0 +1,11 @@
+.answer{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:600px) {
+    .answer {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
